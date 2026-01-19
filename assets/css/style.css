@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding/border are included in element's total width/height */
+}
+
+body {
+  font-family: sans-serif; /* Sets a default font for the whole page */
+  line-height: 1.6; /* Improves readability */
+  background-color: #ffffff; /* Sets a default background color */
+  color: #333; /* Sets a default text color */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  background: #50b3a2;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  /* border-bottom: #e8491d 3px solid; */
+}
+
+.logo-container {
+  float: left;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.main-content {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.initial-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.category {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.img-category {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
